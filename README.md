@@ -18,40 +18,6 @@ This project implements efficient kernels for non-standard ML operations with fo
 - **Kernel Fusion**: Optimized operator fusion for better throughput
 - **Hardware Analysis**: Tools for performance debugging and optimization
 
-## Project Structure
-
-```
-├── src/
-│   ├── kernels/          # Core kernel implementations
-│   ├── gpu/              # GPU-specific optimizations
-│   ├── fpga/             # FPGA implementations
-│   ├── fusion/           # Kernel fusion techniques
-│   └── utils/            # Utilities and helpers
-├── benchmarks/           # Performance benchmarking
-├── tests/                # Unit and integration tests
-├── notebooks/            # Jupyter notebooks for analysis
-├── tools/                # Hardware debugging tools
-└── docs/                 # Documentation
-
-```
-
-## Skills Developed
-
-1. **Algorithmic Optimization for Hardware**
-   - Memory access pattern optimization
-   - Compute-memory trade-offs
-   - Hardware-aware algorithm design
-
-2. **Kernel Fusion Techniques**
-   - Operator fusion strategies
-   - Memory bandwidth optimization
-   - Compute graph optimization
-
-3. **Hardware-Specific Debugging**
-   - CUDA profiling with Nsight
-   - Memory hierarchy analysis
-   - Performance bottleneck identification
-
 ## Getting Started
 
 ### Prerequisites
